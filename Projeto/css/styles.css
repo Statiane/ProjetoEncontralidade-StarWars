@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+  outline: none !important;
+}
+.content-img {
+  background:black;
+  background-size: cover;
+  height: auto;
+  box-shadow: inset 0 0 0 gold, 0 0 1em rgba(0, 0, 0, 0.9);
+  
+  
+}
+.nav-item a{
+  
+  color: gold !important;
+
+
+}
+
+.collor-back {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 0 gold, 0 0 1em rgba(0, 0, 0, 0.9);
+  height: auto;
+}
+.texto-banner{
+  line-height: 24px;
+  font-size: 1rem;
+
+}
+.carousel-item img {
+ 
+  width: 50%;
+  height: 500px;
+  
+}
+ 
+
+
+.mt-3{
+  text-align: center;
+}
+
+.card img{
+  width: 100%;
+  height: 100px;
+  object-fit: scale-down;
+}
+
+.v-button {
+  outline: none !important;
+}
+.color-topo{
+  background-color: black;
+}
+footer div span {
+  color: #ffe919;
+}
