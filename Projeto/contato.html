@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./img/bb8.png" >
+  <title>StarWars</title>
+
+</head>
+
+<body>
+  <header class="content-img img-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark collor-back" id="topo">
+      <img src="./img/logo.png" width="160" class="d-inline-block align-top img-fluid" title="Star Wars">
+      <button class="navbar-toggler v-button" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-5" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-light font-weight-bold scroll-page" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light font-weight-bold scroll-page" href="personagens.html">Persongens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light font-weight-bold scroll-page" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light font-weight-bold scroll-page" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="container mt-5">
+    <h1><strong>Cadastre-se</strong></h1>
+    <span><strong>Fique Por dentro do universo</strong></span>
+
+    <form>
+      <div class="form-group mt-5">
+        <label for="exampleFormControlInput1"><strong>Nome</strong></label>
+        <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome!">
+        <br>
+        <label for="exampleFormControlInput1"><strong>E-mail</strong></label>
+        <input type="e-mail" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu e-mail!">
+        <br>
+        <label for="exampleFormControlInput1"><strong>Senha</strong></label>
+        <input type="senha" class="form-control" id="exampleFormControlInput1" placeholder="Digite sua senha">
+
+      </div>
+
+      <label for="exampleFormControlSelect1"><strong>Qual fime de Star Wars você mais gosta? selecione
+          abaixo</strong></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Star Wars Episódio I: A Ameaça Fantasma (1999)</option>
+        <option>Star Wars Episódio II: Ataque dos Clones (2002)</option>
+        <option>Star Wars Episódio III: A Vingança dos Sith (2005)</option>
+        <option>Rogue One: Uma História Star Wars (2016)</option>
+        <option>Star Wars Episódio IV: Uma Nova Esperança (1977)</option>
+        <option>Star Wars Episódio V: O Império Contra-Ataca (1980)</option>
+        <option>Star Wars Episódio VI: O Retorno de Jedi (1983)</option>
+        <option>Star Wars Episódio VII: O Despertar da Força (2015)</option>
+        <option>Star Wars Episódio VIII: O Último Jedi (2017)</option>
+        <option>Star Wars Episódio IX: A ascensão Skywalker (2019)</option>
+      </select>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1"><strong>Deixa sua opinião sobre a franquia aqui</strong></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      </div>
+      <button type="submit" class="btn btn-primary" style="background-color: black;color:gold">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <div class="drodape mt-3">
+      <div class="logos">
+        <div class="container mt-5">
+          <div class="row mt-5">
+            <div class="col">
+              <img class="redesociaisrodape mt-5" src="./img/facebook(1).svg" height="50px" width="50px">
+              <!-- <i class="fab fa-facebook"></i> -->
+              <p>StarWars</p>
+            </div>
+            <div class="col">
+              <img class="redesociaisrodape mt-5" src="./img/instagram.svg" height="50px" width="50px">
+              <p class="mb-5">@StarWars</p>
+            </div>
+            <div class="col">
+              <img class="redesociaisrodape mt-5" src="./img/twitter.svg" height="50px" width="50px">
+              <p>Star Wars</p>
+            </div>
+          </div>
+        </div>
+        <div class="conteudorodape">
+          <p class="mt-2">Todos os direitos Reservados-©2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </main>
+  <script src="./bootstrap-4.4.1-dist/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="./bootstrap-4.4.1-dist/js/popper.min.js"></script>
+  <script src="./bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="./js/getData.js"></script>
+</body>
+
+</html>
